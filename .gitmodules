@@ -1,3 +1,6 @@
 [submodule "inventory"]
 	path = inventory
 	url = git@github.com:BCurrell/ansible-inventory-bcurrell.git
+[submodule "roles/first"]
+	path = roles/first
+	url = git@github.com:BCurrell/ansible-role-first.git
