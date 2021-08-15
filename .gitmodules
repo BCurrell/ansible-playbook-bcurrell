@@ -5,5 +5,5 @@
 	path = roles/first
 	url = git@github.com:BCurrell/ansible-role-first.git
 [submodule ".\\roles\\dropbear-initramfs"]
-	path = .\\roles\\dropbear-initramfs
+	path = roles/dropbear-initramfs
 	url = git@github.com:BCurrell/ansible-role-dropbear-initramfs.git
