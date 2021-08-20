@@ -1,7 +1,5 @@
 ---
 - name: Run first setup role
   hosts: all
-  vars:
-    remote_user: "{{ user.first }}"
   roles:
     - role: first
