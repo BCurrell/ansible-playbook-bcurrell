@@ -1,0 +1,7 @@
+---
+- name: Run first setup role
+  hosts: all
+  vars:
+    ansible_user: "{{ user.first }}"
+  roles:
+    - role: first
