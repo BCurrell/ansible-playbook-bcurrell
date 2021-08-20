@@ -1,8 +1,9 @@
 ---
 user:
+  first: root
   ansible:
     setup: yes
-    name: "{{ ansible_user }}"
+    name: ansible
     public-keys:
       - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINttIG1i8IVuNL9dbWIO3mI2ys5fHJd+JifXnTlRZrpC brandon@desktop-windows
       - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICr8qzFfewAmvy0gs2HUZUksdHrTxp+POMQpFXC2pggA brandon@desktop-windows-wsl
