@@ -1,0 +1,14 @@
+---
+user:
+  ansible:
+    setup: yes
+    name: "{{ ansible_user }}"
+    public-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINttIG1i8IVuNL9dbWIO3mI2ys5fHJd+JifXnTlRZrpC brandon@desktop-windows
+    sudo: passwordless
+  unprivileged:
+    setup: yes
+    name: brandon
+    public-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICCbXpp6ejJKx41rBjqI6wjL0/eXPvAVIN+TioXwfz6D brandon@desktop-windows
+    sudo: yes
