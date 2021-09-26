@@ -1,0 +1,6 @@
+---
+- name: Run dropbear-initramfs role
+  hosts: hypervisors
+  become: true
+  roles:
+    - role: dropbear-initramfs
