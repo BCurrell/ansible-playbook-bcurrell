@@ -1,0 +1,20 @@
+# Ignore everything
+**
+
+# Unignore Git stuff
+!.git*
+
+# Unignore Ansible playbook directories
+!inventory/
+!inventory/**
+!roles/
+!roles/**
+
+# Unignore Ansible config file
+!ansible.cfg
+
+# Unignore all YAML files
+!**.yaml
+
+# Unignore README
+!README
